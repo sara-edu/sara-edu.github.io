@@ -1,0 +1,52 @@
+project:
+  type: website
+  preview: 
+    browser: true
+  
+website:
+  #title: "SARA"
+  favicon: images/logo.png
+  site-url: https://saraedu.netlify.app/
+  description: "SARA Institute of offers free data science education to underrepresented students."
+  back-to-top-navigation: true
+  
+  open-graph: true
+  twitter-card:
+    site: "@sara_institute" 
+    creator: "@sara_institute" 
+    image: "/images/twitter-card.jpg"
+  
+  navbar:
+    logo: images/logo.png
+    right: 
+      - text: Courses
+      - text: Community
+
+  page-footer: 
+    left:
+      - text: "&copy; SARA 2023"
+    center:
+      - text: "Educate. Agitate. Organize."
+    right:
+      - href: contact.qmd
+        text: Contact us
+      - icon: github
+        href: https://github.com/sara-edu
+        aria-label: GitHub   
+      - icon: twitter
+        href: https://twitter.com/sara_institute
+        aria-label: Twitter      
+
+format:
+  html:
+    theme: [flatly, styles.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    page-layout: article
+    fig-cap-location: bottom
+    fig-responsive: true
+    grid: 
+      body-width: 1100px
+    
+    #backgroundcolor: rgb(255, 255, 128);

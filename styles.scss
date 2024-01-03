@@ -1,0 +1,182 @@
+/*-- scss:defaults --*/
+
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Libre+Baskerville&display=swap');
+
+// audio
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Baskerville&display=swap');
+
+// bruno ace
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+// Michroma
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+// Arimo as good as Arial
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+//
+// Color system
+//
+$white:     #ffffff !default;
+$silver:    #f2f2f2 !default;
+$black:     #000000 !default;
+
+$blue:      #003366 !default;
+$orange:    #ff5a28 !default;
+
+$primary:   $white !default;
+
+$link-color: $orange;
+
+
+// Dropdowns
+
+$dropdown-link-color:               $black !default;
+$dropdown-link-hover-color:         $black !default;
+$dropdown-link-hover-bg:            $black !default;
+
+
+$font-family: "Atkinson Hyperlegible", "sans-serif";
+$font-family-serif: "Atkinson Hyperlegible", "sans-serif";
+
+
+// link style.
+$link-color: #FFFD0A;
+//$link-color-hover: lighten($link-color, 15%);
+//$selection-bg: $light-blue;
+
+
+/*-- scss:rules --*/
+
+.quote {
+  font-size: 1.25em;
+  //color: $navy-blue;
+  font-style: italic;
+}
+
+.theme-blue {
+  color: $blue;
+}
+
+// this idea of rainbow color is borrowed from Emil's slides link https://github.com/EmilHvitfeldt/talk-nyr-slidecraft/blob/main/styles.scss
+
+.rainbow-red {color: #FF0002;}
+.rainbow-orange {color: #FF7800;}
+.rainbow-yellow {color: #FFFD0A;}
+.rainbow-green {color: #10DD15;}
+.rainbow-blue {color: #3050FF;}
+.rainbow-indigo {color: #7B20A3;}
+.rainbow-purple {color: #D501FA;}
+
+.banner {
+  font-size: 2em;
+}
+  
+.center {
+  text-align: center;
+} 
+
+.bg-blue {
+  background-color: #003366;
+  padding-top: 20px;
+  padding-right: 400px;
+  padding-bottom: 60px;
+  padding-left: 400px;
+}
+
+.white {
+  color: $white;
+}
+
+.theme-audio {
+  font-family: 'Audiowide', sans-serif;
+}
+
+.theme-bruno {
+  font-family: 'Bruno Ace', sans-serif;
+}
+
+.theme-michroma {
+  font-family: 'Michroma', sans-serif;
+}
+
+.smaller {
+  font-size: 0.35em;
+  
+  font-family: 'Arimo', sans-serif;
+  
+  line-height: 0.55;
+  
+}
+
+.hero-banner {
+  background-image: url('images/banner.jpg');
+  background-size: 55%;
+  color: $white;
+  font-size: 8.3em;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.bg-blue {
+  background-color: #003366;
+  
+}
+
+.heading-huge {
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.heading-large {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.text-large {
+  font-size: 2.25em;
+  line-height: 1.5;
+}
+
+.centering {
+  text-align: center;
+}
+
+.button {
+  background-color: $blue;
+  border: none;
+  font-size: 2em;
+  font-weight: 600;
+  color: $white;
+  line-height: 1.5;
+  padding-top: 0.444444em;
+  padding-right: 1em;
+  padding-bottom: 0.555556em;
+  padding-left: 1em;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.button2 {
+  background-color: $white;
+  border: none;
+  font-weight: 600;
+  color: $black;
+  padding-top: 0.444444em;
+  padding-right: 1em;
+  padding-bottom: 0.555556em;
+  padding-left: 1em;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.35em;
+  font-family: 'Arimo', sans-serif;
+  line-height: 0.55;
+}
+
+
+
