@@ -13,46 +13,27 @@ theme: [default, styles.scss]
 <br>
 <br>
 
-:::: {.columns}
+[SARA INSTITUTE]{.theme-audio .heading-huge .theme-blue} 
 
-::: {.column width="60%"}
-[SARA<br>INSTITUTE]{.theme-audio .heading-huge .theme-blue} 
-:::
+[Empowering underrepresented communities through purposeful education and research.]{.heading-large .black}
 
-::: {.column width="40%"}
 <br>
-<br>
-<br>
+
 [[REGISTER NOW](https://forms.gle/tEn5NtFCKaRGwhSp6)]{.button}
-:::
-
-::::
-
-[Empowering underrepresented communities through purposeful education and research.]{.heading-large}
 
 <br>
 <br>
-<br>
 
-:::{.bg-blue .column-screen}
+::: {.bg-green .column-screen}
 
-# Why SARA?
+# [Our Courses]{.heading-large .white}
 
-:::: {.columns}
+## Data Science: Empowering underrepresented communities<br>through purposeful data science education.
 
-::: {.column width="33.33%"}
-Data Science: Empowering underrepresented communities<br>through purposeful data science education.
-:::
+## Research: Empowering underrepresented communities<br>through purposeful data science education.
 
-::: {.column width="33.33%"}
-Research: Empowering underrepresented communities<br>through purposeful data science education.
-:::
+## English: Empowering underrepresented communities<br>through purposeful data science education.
 
-::: {.column width="33.33%"}
-English: Empowering underrepresented communities<br>through purposeful data science education.
-:::
-
-::::
 :::
 
 :::: {.hero-banner .column-screen .theme-audio}
