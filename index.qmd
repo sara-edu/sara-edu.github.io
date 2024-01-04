@@ -31,17 +31,21 @@ backgroundcolor: "#e9e9e9"
 
 ::: {.bg-green .column-screen .centering}
 
-[We Teach Free]{.subtitle}
+[We Teach Free]{.subtitle .bold-line}
 
 ::: {.text-large}
 
-Data Science: R, GitHub, Statistics, & Quarto. 
+[Data Science]{.bold}<br>(R, GitHub, Statistics, & Quarto) 
 
-English: Writing, Speaking, Reading, & Listening.
+English Language<br>(Writing, Speaking, Reading, & Listening)
 
-Research: Proposal, Quantitative, & Qualitative Research.
+Research Methodology<br>(Proposal, Quantitative, & Qualitative Research)
 
 :::
+
+<br>
+<br>
+[[KNOW MORE]()]{.button}
 :::
 
 <!-- :::: {.hero-banner .column-screen .theme-audio} -->
@@ -59,7 +63,7 @@ Research: Proposal, Quantitative, & Qualitative Research.
 <!-- :::: -->
 ::: {.centering .bg-cream .column-screen}
 
-[Paying Back To Society]{.subtitle}
+[Paying Back To Society]{.subtitle .blue}
 
 <br>
 
@@ -74,7 +78,7 @@ Research: Proposal, Quantitative, & Qualitative Research.
 
 ::: {.centering .bg-gold .column-screen}
 
-[Become A SARA Supporter]{.subtitle}
+[Become A SARA Supporter]{.subtitle .blue}
 
 ::: {.text-large}
 Teach with us.

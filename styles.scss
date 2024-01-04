@@ -21,13 +21,14 @@
 // Color system
 //
 $white:     #ffffff !default;
-$silver:    #f2f2f2 !default;
+$silver:    #e9e9e9 !default;
 $black:     #000000 !default;
+
 
 $blue:      #003366 !default;
 $orange:    #ff5a28 !default;
 
-$primary:   $white !default;
+$primary:   $silver !default;
 
 $link-color: $orange;
 
@@ -57,27 +58,18 @@ $link-color: #FFFD0A;
   font-style: italic;
 }
 
-.theme-blue {
+.blue {
   color: $blue;
 }
 
-// this idea of rainbow color is borrowed from Emil's slides link https://github.com/EmilHvitfeldt/talk-nyr-slidecraft/blob/main/styles.scss
-
-.rainbow-red {color: #FF0002;}
-.rainbow-orange {color: #FF7800;}
-.rainbow-yellow {color: #FFFD0A;}
-.rainbow-green {color: #10DD15;}
-.rainbow-blue {color: #3050FF;}
-.rainbow-indigo {color: #7B20A3;}
-.rainbow-purple {color: #D501FA;}
-
-.banner {
-  font-size: 2em;
+.white {
+  color: $white;
 }
-  
-.center {
-  text-align: center;
-} 
+
+.black {
+  color: #181818;
+}
+
 
 .bg-red {
   background-color: #c93727;
@@ -91,9 +83,9 @@ $link-color: #FFFD0A;
 .bg-cream {
   background-color: #e9e9e9;
   padding-top: 20px;
-  padding-right: 400px;
+  padding-right: 100px;
   padding-bottom: 20px;
-  padding-left: 400px;
+  padding-left: 100px;
   color: $black;
 }
 
@@ -109,33 +101,17 @@ $link-color: #FFFD0A;
 .bg-gold {
   background-color: #fad345;
   padding-top: 20px;
-  padding-right: 400px;
+  padding-right: 100px;
   padding-bottom: 20px;
-  padding-left: 400px;
+  padding-left: 100px;
   color: $black;
 }
 
-
-
-.white {
-  color: $white;
-}
-
-.black {
-  color: #181818;
-}
 
 .theme-audio {
   font-family: 'Audiowide', sans-serif;
 }
 
-.theme-bruno {
-  font-family: 'Bruno Ace', sans-serif;
-}
-
-.theme-michroma {
-  font-family: 'Michroma', sans-serif;
-}
 
 .smaller {
   font-size: 0.35em;
@@ -168,7 +144,6 @@ $link-color: #FFFD0A;
   font-size: 4.5em;
   font-weight: 900;
   font-family: 'Audiowide', sans-serif;
-  color: $blue;
 }
 
 .text-large {
@@ -176,13 +151,18 @@ $link-color: #FFFD0A;
   font-weight: 400;
 }
 
-//.text-large {
-//  font-size: 2.25em;
-//  line-height: 1.5;
-//}
+.bold-line {
+  text-decoration: underline;
+  text-decoration-color: $blue;
+  text-decoration-thickness: 0.2em;
+}
 
 .centering {
   text-align: center;
+}
+
+.bold {
+  font-weight: 900;
 }
 
 .button {
