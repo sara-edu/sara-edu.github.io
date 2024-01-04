@@ -8,57 +8,65 @@ description: We offer free data science education at the SARA Institute.
 title-block-style: none
 css: homepage.css
 theme: [default, styles.scss]
+backgroundcolor: "#e9e9e9"
 ---
 
 <br>
 <br>
 
-[SARA INSTITUTE]{.theme-audio .heading-huge .theme-blue} 
+::: {.centering}
 
-[Empowering underrepresented communities through purposeful education and research.]{.heading-large .black}
+[SARA INSTITUTE]{.theme-audio .title .theme-blue} 
+
+[Empowering underrepresented communities through purposeful education and research.]{.text-large .black}
 
 <br>
 
 [[REGISTER NOW](https://forms.gle/tEn5NtFCKaRGwhSp6)]{.button}
 
 <br>
-<br>
-
-::: {.bg-green .column-screen}
-
-# [Our Courses]{.heading-large .white}
-
-## Data Science: Empowering underrepresented communities<br>through purposeful data science education.
-
-## Research: Empowering underrepresented communities<br>through purposeful data science education.
-
-## English: Empowering underrepresented communities<br>through purposeful data science education.
 
 :::
 
-:::: {.hero-banner .column-screen .theme-audio}
 
-DIGITAL DREAMS
+::: {.bg-green .column-screen .centering}
 
-::: {.smaller}
-30 COMPUTERS.
+[We Teach Free]{.subtitle}
 
-30 STUDENTS.
+::: {.text-large}
 
-30 DREAMS.
+Data Science: R, GitHub, Statistics, & Quarto. 
+
+English: Writing, Speaking, Reading, & Listening.
+
+Research: Proposal, Quantitative, & Qualitative Research.
+
+<br>
+<br>
+
+:::
 :::
 
-::::
+<!-- :::: {.hero-banner .column-screen .theme-audio} -->
+
+<!-- DIGITAL DREAMS -->
+
+<!-- ::: {.smaller} -->
+<!-- 30 COMPUTERS. -->
+
+<!-- 30 STUDENTS. -->
+
+<!-- 30 DREAMS. -->
+<!-- ::: -->
+
+<!-- :::: -->
+::: {.centering .bg-cream .column-screen}
+
+[Paying Back To Society]{.subtitle}
 
 <br>
 
-::: {.centering}
-
-# [A Purposeful Institute]{.heading-large}
-
-<br>
-
-[SARA was founded in 2023 for community-rooted data science education & research. Our mission is to enhance the representation of under-privileged communities in data science and mentor them to cultivate creativity and lead impactful lives.]{.text-large .r-fit-text}
+[SARA was founded in 2023 for community-rooted data science education & research. Our mission is to enhance the representation of under-privileged communities in data science and mentor them to cultivate creativity and lead impactful lives.]{.text-large}
 
 <br>
 <br>
@@ -67,9 +75,21 @@ DIGITAL DREAMS
 
 :::
 
-:::: {.bg-blue .column-screen}
+::: {.centering .bg-gold .column-screen}
 
+[Become A SARA Supporter]{.subtitle}
 
-::::
+::: {.text-large}
+Teach with us.
 
+Donate to us.
 
+Share about us.
+:::
+
+<br>
+<br>
+
+[Donation Link]{.button}
+
+:::

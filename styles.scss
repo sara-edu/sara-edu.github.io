@@ -79,6 +79,24 @@ $link-color: #FFFD0A;
   text-align: center;
 } 
 
+.bg-red {
+  background-color: #c93727;
+  padding-top: 20px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+  padding-left: 400px;
+  color: $white;
+}
+
+.bg-cream {
+  background-color: #e9e9e9;
+  padding-top: 20px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+  padding-left: 400px;
+  color: $black;
+}
+
 .bg-green {
   background-color: #006758;
   padding-top: 20px;
@@ -87,6 +105,17 @@ $link-color: #FFFD0A;
   padding-left: 400px;
   color: $white;
 }
+
+.bg-gold {
+  background-color: #fad345;
+  padding-top: 20px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+  padding-left: 400px;
+  color: $black;
+}
+
+
 
 .white {
   color: $white;
@@ -128,21 +157,29 @@ $link-color: #FFFD0A;
 }
 
 
-.heading-huge {
+.title {
   font-size: 5em;
   font-weight: 900;
-  text-align: "center";
+  font-family: 'Audiowide', sans-serif;
+  color: $blue;
 }
 
-.heading-large {
+.subtitle {
+  font-size: 4.5em;
+  font-weight: 900;
+  font-family: 'Audiowide', sans-serif;
+  color: $blue;
+}
+
+.text-large {
   font-size: 2em;
   font-weight: 400;
 }
 
-.text-large {
-  font-size: 2.25em;
-  line-height: 1.5;
-}
+//.text-large {
+//  font-size: 2.25em;
+//  line-height: 1.5;
+//}
 
 .centering {
   text-align: center;
