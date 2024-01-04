@@ -1,7 +1,10 @@
 ---
 pagetitle: SARA
+page-layout: article
+editor: source
 toc: false
 sidebar: false
+description: We offer free data science education at the SARA Institute.
 title-block-style: none
 css: homepage.css
 theme: [default, styles.scss]
@@ -12,25 +15,20 @@ theme: [default, styles.scss]
 
 :::: {.columns}
 
-::: {.column width="70%"}
-
-[SARA INSTITUTE]{.theme-audio .heading-huge .theme-blue} 
-
-[Empowering underrepresented communities<br>through purposeful data science education.]{.heading-large}
-
+::: {.column width="60%"}
+[SARA<br>INSTITUTE]{.theme-audio .heading-huge .theme-blue} 
 :::
 
-::: {.column width="30%"}
-
+::: {.column width="40%"}
 <br>
 <br>
 <br>
-
 [[REGISTER NOW](https://forms.gle/tEn5NtFCKaRGwhSp6)]{.button}
-
 :::
 
 ::::
+
+[Empowering underrepresented communities through purposeful education and research.]{.heading-large}
 
 <br>
 <br>
