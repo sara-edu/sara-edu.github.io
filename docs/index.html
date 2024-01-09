@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="We offer free data science education at the SARA Institute.">
 
 <title>SARA</title>
 <style>
@@ -41,6 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,16 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style type="text/css">
+  h2, .h2 {
+    border-bottom: none;
+  }
+</style>
 
 
-<link rel="stylesheet" href="homepage.css">
-<meta property="og:title" content="SARA">
-<meta property="og:description" content="We offer free data science education at the SARA Institute.">
+<link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="SARA">
-<meta name="twitter:description" content="We offer free data science education at the SARA Institute.">
-<meta name="twitter:image" content="https://saraedu.netlify.app//images/twitter-card.jpg">
-<meta name="twitter:creator" content="@sara_institute">
-<meta name="twitter:site" content="@sara_institute">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://sara-edu.github.io/images/logo.png">
+<meta name="twitter:image-height" content="631">
+<meta name="twitter:image-width" content="631">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -88,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="SARA Institute brand" class="navbar-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="dropdown-header">
- <span class="menu-text">Courses</span></li>
-  <li class="dropdown-header">
- <span class="menu-text">Community</span></li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About Us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./course.qmd"> 
+<span class="menu-text">Our Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./suppot.qmd"> 
+<span class="menu-text">Support Us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.qmd"> 
+<span class="menu-text">Contact Us</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -119,47 +139,54 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><br> <br></p>
+<div class="column-screen">
+<div class="banner-blue">
+<p><img src="images/sara-launch.jpg" class="img-fluid" alt="April 2023, SARA Institute was launched with family &amp; students."></p>
+<p>SARA INSTITUTE <br>OF DATA SCIENCE<br>🚀</p>
+<div class="btn btn-lg btn-primary">
+<p><a href="">REGISTRATION LINK</a></p>
+</div>
+</div>
+</div>
+<section id="a-societal-mission" class="level1 centering">
+<h1><span class="theme-basker theme-blue uline-cherry">A Societal Mission</span></h1>
+<p><span class="body-large">Empowering underrepresented communities through purposeful education and research.</span></p>
+<p><span class="body-large">At SARA, our mission is to empower and enrich our community through education, innovation, and collaboration. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth.</span></p>
+<p><span class="body-large">We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.</span></p>
+</section>
+<div class="column-screen">
+<section id="we-teach-free" class="level1 banner-green">
+<h1><span class="theme-basker theme-white uline-blue">We Teach Free</span></h1>
+<div class="flex-container">
+<p><span class="body-large"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i> Data Science<br>Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website</span></p>
+<p><span class="body-large"><i class="fa-solid fa-laptop fa-1xl" aria-label="laptop"></i> Computer Skills<br>Word Processing<br>Spreadsheet<br>Presentation<br>Email<br>Digital Calenders<br>Social Media<br>Google Drive</span></p>
+<p><span class="body-large"><i class="fa-solid fa-plane-departure fa-1xl" aria-label="plane-departure"></i> English Language<br>Writing<br>Speaking<br>Listening<br>Group Discussion<br>Communication<br>IELTS<br>TOEFL</span></p>
+<p><span class="body-large"><i class="fa-solid fa-clipboard-check" aria-label="clipboard-check"></i> Research Methodology<br>Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing</span></p>
+</div>
+<p><img src="images/class-terra.jpg" class="img-fluid" alt="First batch data science students at SARA."></p>
+</section>
+</div>
+<section id="paying-back-to-the-community" class="level1 centering">
+<h1><span class="theme-basker uline-gold theme-blue">Paying Back To The Community</span></h1>
+<p><span class="body-large">At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.</span></p>
+</section>
+<section id="thanks" class="level1 banner-footer column-screen">
+<h1><span class="theme-basker uline-gold theme-white">Thanks</span></h1>
+<p><span class="body-large">Good organization is built by happy, well-supported people.</span></p>
+<p><br></p>
 <div class="centering">
-<p><span class="theme-audio title theme-blue">SARA INSTITUTE</span></p>
-<p><span class="text-large black">Empowering underrepresented communities through purposeful education and research.</span></p>
+<div class="flex-container">
+<p><img src="images/ajay.png" class="img-fluid"><br>Dr.&nbsp;Ajay Koli, PhD<br>Founder &amp; Executive Director, SARA.</p>
+<p><img src="images/kiran.png" class="img-fluid"><br>Dr.&nbsp;Kiran Koli, PhD<br>Founder &amp; Director, SARA.</p>
+<p><i class="fa-brands fa-facebook fa-2xl" aria-label="facebook"></i> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/sara_institute"><i class="fa-brands fa-twitter fa-2xl" aria-label="twitter"></i></a> &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-brands fa-instagram fa-2xl" aria-label="instagram"></i> &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-brands fa-linkedin fa-2xl" aria-label="linkedin"></i> &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-brands fa-youtube fa-2xl" aria-label="youtube"></i><br><br><a href="">SARA Home</a><br><br><a href="">About SARA</a><br><br><a href="">Our Courses</a><br><br><a href="">Contact Us</a></p>
+</div>
+</div>
 <p><br></p>
-<p><span class="button"><a href="https://forms.gle/tEn5NtFCKaRGwhSp6">REGISTER NOW</a></span></p>
+<p><span class="body-large">Thank you for being a part of the SARA! <br> Your support and participation are invaluable as we embark on this journey together.</span></p>
+</section>
 <p><br></p>
-</div>
-<div class="bg-green column-screen centering">
-<p><span class="subtitle bold-line">We Teach Free</span></p>
-<div class="text-large">
-<p><span class="bold">Data Science</span><br>(R, GitHub, Statistics, &amp; Quarto)</p>
-<p>English Language<br>(Writing, Speaking, Reading, &amp; Listening)</p>
-<p>Research Methodology<br>(Proposal, Quantitative, &amp; Qualitative Research)</p>
-</div>
-<p><br> <br> <span class="button"><a href="">KNOW MORE</a></span></p>
-</div>
-<!-- :::: {.hero-banner .column-screen .theme-audio} -->
-<!-- DIGITAL DREAMS -->
-<!-- ::: {.smaller} -->
-<!-- 30 COMPUTERS. -->
-<!-- 30 STUDENTS. -->
-<!-- 30 DREAMS. -->
-<!-- ::: -->
-<!-- :::: -->
-<div class="centering bg-cream column-screen">
-<p><span class="subtitle blue">Paying Back To Society</span></p>
-<p><br></p>
-<p><span class="text-large">SARA was founded in 2023 for community-rooted data science education &amp; research. Our mission is to enhance the representation of under-privileged communities in data science and mentor them to cultivate creativity and lead impactful lives.</span></p>
-<p><br> <br></p>
-<p><span class="button">More about SARA</span></p>
-</div>
-<div class="centering bg-gold column-screen">
-<p><span class="subtitle blue">Become A SARA Supporter</span></p>
-<div class="text-large">
-<p>Teach with us.</p>
-<p>Donate to us.</p>
-<p>Share about us.</p>
-</div>
-<p><br> <br></p>
-<p><span class="button">Donation Link</span></p>
+<div class="btn btn-lg btn-primary">
+<p><a href="">Become a SARA Supporter</a></p>
 </div>
 
 
@@ -559,27 +586,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="">Terms &amp; Conditions</a></p>
+<p>© <a href="">SARA Institute</a>. Sonipat, Haryana 131001.</p>
 </div>   
     <div class="nav-footer-center">
-<p><img src="images/logo.png" class="img-fluid" style="width:10.0%"> <br><br> Copyright © 2023 <a href="">SARA Institute</a></p>
-</div>
-    <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/sara-edu">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/sara_institute">
-      <i class="bi bi-twitter" role="img" aria-label="Twitter">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
+    <div class="nav-footer-right">
+<p><a href="t&amp;c.qmd">Terms &amp; Conditions</a></p>
+</div>
   </div>
 </footer>
 

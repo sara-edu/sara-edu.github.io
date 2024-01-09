@@ -1,0 +1,134 @@
+/*-- scss:defaults --*/
+
+// color system
+$theme-blue:   #003366;
+$theme-gray:   #4c4c4c;
+$theme-white:  white;
+$theme-silver: #e9e9e9;
+$theme-green:  #006758;
+$theme-gold:   #ffc041;
+$theme-black:  #242e32;
+$theme-cherry: #a51f3c;
+
+$link-color: $theme-gold;
+
+$navbar-bg: $theme-silver;
+
+.theme-blue {
+  color: $theme-blue;
+}
+
+.theme-black {
+  color: $theme-black;
+}
+
+.theme-white {
+  color: $theme-white;
+}
+
+$font-size-root: 22px;
+$h1-font-size: $font-size-root * 2.60;
+
+$background-color: $theme-black;
+
+
+// heading font style "audio"
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Baskerville&display=swap');
+
+.theme-audio {
+  font-family: 'Audiowide', sans-serif;
+  color: $theme-blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.theme-basker {
+  font-family: 'Libre Baskerville', serif;
+  //color: $theme-blue;
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+.centering {
+  text-align: center;
+}
+
+.banner-blue {
+  background-color: $theme-blue;
+  color: $theme-white;
+  font-size: 4vw;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.banner-green {
+  background-color: $theme-green;
+  color: $theme-white;
+  font-size: 3vw;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.banner-cherry {
+  background-color: $theme-cherry;
+  color: $theme-white;
+  font-size: 3vw;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.banner-footer {
+  background-color: #242e32;
+  color: $theme-white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title-huge {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.body-large {
+  font-size: $font-size-root * 1.5;
+}
+
+.uline-blue {
+  text-decoration: underline;
+  text-decoration-color: $theme-blue;
+  text-decoration-thickness: 0.2em;
+}
+
+.uline-cherry {
+  text-decoration: underline;
+  text-decoration-color: $theme-cherry;
+  text-decoration-thickness: 0.2em;
+}
+
+.uline-gold {
+  text-decoration: underline;
+  text-decoration-color: $theme-gold;
+  text-decoration-thickness: 0.2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-course {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

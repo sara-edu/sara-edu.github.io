@@ -1,58 +1,42 @@
 project:
   type: website
   output-dir: docs
-  preview: 
-    browser: true
-  
+
 website:
   #title: "SARA"
-  favicon: images/logo.png
-  site-url: https://saraedu.netlify.app/
-  description: "SARA Institute of offers free data science education to underrepresented students."
-  back-to-top-navigation: false
-  
-  open-graph: true
-  twitter-card:
-    site: "@sara_institute" 
-    creator: "@sara_institute" 
-    image: "/images/twitter-card.jpg"
+  favicon: "images/logo.png"
+  twitter-card: true
+  image: "images/logo.png"
+  site-url: "https://sara-edu.github.io/"
+  #cookie-consent: true
   
   navbar:
     logo: images/logo.png
-    logo-alt: "SARA Institute brand"
-    title: false
-    collapse-below: lg
-    right: 
-      - text: Courses
-      - text: Community
-
-  page-footer:
-    background: "#e9e9e9"
-    center: |
-      ![](images/logo.png){width=10%} <br><br>
-      Copyright &copy; 2023 [SARA Institute]()
     right:
-      - icon: github
-        href: https://github.com/sara-edu
-        aria-label: GitHub   
-      - icon: twitter
-        href: https://twitter.com/sara_institute
-        aria-label: Twitter
-    left: |
-      [Terms & Conditions]()
-
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Us
+      - href: course.qmd
+        text: Our Courses
+      - href: suppot.qmd
+        text: Support Us  
+      - href: contact.qmd
+        text: Contact Us  
+      
+  page-footer:
+    background: "#242e32"
+    left: "&copy; [SARA Institute](). Sonipat, Haryana 131001."
+    right: "[Terms & Conditions](t&c.qmd)"
+      
 format:
   html:
-    theme: [lux, styles.scss]
-    mainfont: "Atkinson Hyperlegible"
-    code-copy: true
-    code-overflow: wrap
-    page-layout: custom
-    fig-cap-location: bottom
-    fig-responsive: true
-    grid:
-      sidebar-width: 0px
-      body-width: 1000px
-      margin-width: 250px
-    
-    #backgroundcolor: rgb(255, 255, 128);
+    theme: 
+     - flatly
+     - test.scss
+    css: styles.css
+    toc: false
+   
+
+
+
