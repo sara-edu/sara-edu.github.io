@@ -26,6 +26,10 @@ $navbar-bg: $theme-silver;
   color: $theme-white;
 }
 
+.theme-gold {
+  color: $theme-gold;
+}
+
 $font-size-root: 22px;
 $h1-font-size: $font-size-root * 2.60;
 
@@ -51,6 +55,15 @@ h1, h2, h3 {
   font-family: 'Libre Baskerville', serif;
 }
 
+// cursive font style for special mentions.
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+.theme-cursive {
+  font-family: 'Playpen Sans', cursive;
+  font-size: $font-size-root * 1.75;
+  font-weight: 400;
+  color: $theme-gold;
+}
 
 .centering {
   text-align: center;
@@ -59,7 +72,7 @@ h1, h2, h3 {
 .banner-blue {
   background-color: $theme-blue;
   color: $theme-white;
-  font-size: 4vw;
+  //font-size: 4vw;
   font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   text-align: center;
@@ -68,7 +81,7 @@ h1, h2, h3 {
 .banner-green {
   background-color: $theme-green;
   color: $theme-white;
-  font-size: 3vw;
+  //font-size: 3vw;
   font-weight: 700;
   text-align: center;
   padding-top: 1vh;
@@ -77,8 +90,8 @@ h1, h2, h3 {
 .banner-cherry {
   background-color: $theme-cherry;
   color: $theme-white;
-  font-size: 3vw;
-  font-family: 'Libre Baskerville', serif;
+  //font-size: 3vw;
+  //font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   text-align: center;
 }
@@ -114,6 +127,12 @@ h1, h2, h3 {
 .uline-gold {
   text-decoration: underline;
   text-decoration-color: $theme-gold;
+  text-decoration-thickness: 0.2em;
+}
+
+.uline-green {
+  text-decoration: underline;
+  text-decoration-color: $theme-green;
   text-decoration-thickness: 0.2em;
 }
 

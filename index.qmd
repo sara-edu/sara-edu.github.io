@@ -15,18 +15,19 @@ include-in-header:
 
 ::: {.column-screen}
 ::: {.banner-blue}
+<br>
+
+# SARA INSTITUTE <br>OF DATA SCIENCE<br>🚀
+
+[REGISTRATION LINK]()
+
 ![](images/sara-launch.jpg){fig-alt="April 2023, SARA Institute was launched with family & students."}
 
-SARA INSTITUTE <br>OF DATA SCIENCE<br>🚀
-
-::: {.btn .btn-lg .btn-primary}
-[REGISTRATION LINK]()
-:::
 :::
 :::
 
 ::: {.centering}
-# [A Societal Mission]{.theme-basker .theme-blue .uline-cherry}
+# [A Societal Mission]{.theme-basker .theme-blue .uline-green}
 
 [Empowering underrepresented communities through purposeful education and research.]{.body-large} 
 
@@ -37,7 +38,9 @@ SARA INSTITUTE <br>OF DATA SCIENCE<br>🚀
 
 ::: {.column-screen}
 ::: {.banner-green}
-# [We Teach Free]{.theme-basker .theme-white .uline-blue}
+# [We Teach]{.theme-basker .theme-white .uline-blue}
+
+[All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.body-large .theme-gold}
 
 ::: {.flex-container}
 [{{< fa chart-line >}} Data Science<br>Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-large} 
@@ -54,16 +57,16 @@ SARA INSTITUTE <br>OF DATA SCIENCE<br>🚀
 :::
 
 ::: {.centering }
-# [Paying Back To The Community]{.theme-basker .uline-gold .theme-blue}
+# [Paying Back To The Community]{.theme-basker .uline-cherry .theme-blue}
 
-[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
+[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. <br>Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
 :::
 
-::: {.banner-footer .column-screen}
+::: {.banner-cherry .column-screen}
 
 # [Thanks]{.theme-basker .uline-gold .theme-white}
 
-[Good organization is built by happy, well-supported people.]{.body-large}
+[A Good Organization is Built by Happy, Well-supported People.]{.body-large}
 
 <br>
 
@@ -73,17 +76,13 @@ SARA INSTITUTE <br>OF DATA SCIENCE<br>🚀
 
 ![](images/kiran.png)<br>Dr. Kiran Koli, PhD<br>Founder & Director, SARA.
 
-{{< fa brands facebook size=2xl >}} &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=2xl >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; {{< fa brands instagram size=2xl >}} &nbsp;&nbsp;&nbsp;&nbsp; {{< fa brands linkedin size=2xl >}} &nbsp;&nbsp;&nbsp;&nbsp; {{< fa brands youtube size=2xl >}}<br><br>[SARA Home]()<br><br>[About SARA]()<br><br>[Our Courses]()<br><br>[Contact Us]()
+[{{< fa brands facebook size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=2xl >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands instagram size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands linkedin size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2xl >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg)<br><br>[SARA Home]()<br><br>[About SARA]()<br><br>[Our Courses]()<br><br>[Contact Us]()
 
 :::
 :::
 <br>
 
 [Thank you for being a part of the SARA! <br> Your support and participation are invaluable as we embark on this journey together.]{.body-large}
-:::
 
-<br>
-
-::: {.btn .btn-lg .btn-primary}
 [Become a SARA Supporter]()
 :::
