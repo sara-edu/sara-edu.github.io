@@ -14,6 +14,16 @@ $link-color: $theme-gold;
 
 $navbar-bg: $theme-silver;
 
+$navbar-fg: $theme-blue; //The color of foreground elements (text and navigation) on the navbar. If not specified, a contrasting color is automatically computed.
+
+$navbar-hl: $theme-blue; //The highlight color for links in the navbar.
+
+// below important to zero top padding gap solution is from the Stackoverflow
+.content {
+  margin-top: -20px;
+  margin-bottom: -60px;
+}
+
 .theme-blue {
   color: $theme-blue;
 }
@@ -34,7 +44,6 @@ $font-size-root: 22px;
 $h1-font-size: $font-size-root * 2.60;
 
 $background-color: $theme-black;
-
 
 // heading font style "audio"
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Baskerville&display=swap');
@@ -76,6 +85,7 @@ h1, h2, h3 {
   font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   text-align: center;
+  padding-top: 0;
 }
 
 .banner-green {
@@ -141,13 +151,5 @@ h1, h2, h3 {
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
-}
-
-.flex-container-course {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
 }

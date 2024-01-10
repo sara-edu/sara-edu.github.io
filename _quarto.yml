@@ -25,9 +25,10 @@ website:
         text: Contact Us  
       
   page-footer:
-    background: "#242e32"
-    left: "&copy; [SARA Institute](). Sonipat, Haryana 131001."
-    right: "[Terms & Conditions](t&c.qmd)"
+    background: "#003366"
+    left: "&copy; SARA Institute<br>Sonipat, Haryana 131001, India."
+    center: "See a bug?<br>[File an issue!]()"
+    right: "[Terms &<br>Conditions](t&c.qmd)"
       
 format:
   html:
@@ -36,7 +37,3 @@ format:
      - test.scss
     css: styles.css
     toc: false
-   
-
-
-

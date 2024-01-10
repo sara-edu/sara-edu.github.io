@@ -59,7 +59,7 @@ include-in-header:
 ::: {.centering }
 # [Paying Back To The Community]{.theme-basker .uline-cherry .theme-blue}
 
-[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. <br>Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
+[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
 :::
 
 ::: {.banner-cherry .column-screen}
