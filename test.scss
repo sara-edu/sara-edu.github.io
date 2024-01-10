@@ -40,7 +40,7 @@ $navbar-hl: $theme-blue; //The highlight color for links in the navbar.
   color: $theme-gold;
 }
 
-$font-size-root: 22px;
+$font-size-root: 20px;
 $h1-font-size: $font-size-root * 2.60;
 
 $background-color: $theme-black;
@@ -76,6 +76,10 @@ h1, h2, h3 {
 
 .centering {
   text-align: center;
+}
+
+.lefting {
+  text-align: left;
 }
 
 .banner-blue {
@@ -122,6 +126,10 @@ h1, h2, h3 {
   font-size: $font-size-root * 1.5;
 }
 
+.body-medium {
+  font-size: $font-size-root * 1.25;
+}
+
 .uline-blue {
   text-decoration: underline;
   text-decoration-color: $theme-blue;
@@ -152,4 +160,24 @@ h1, h2, h3 {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #ffffff;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
 }

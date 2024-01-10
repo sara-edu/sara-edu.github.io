@@ -13,6 +13,8 @@ include-in-header:
     </style>
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 ::: {.column-screen}
 ::: {.banner-blue}
 <br>
@@ -27,7 +29,7 @@ include-in-header:
 :::
 
 ::: {.centering}
-# [A Societal Mission]{.theme-basker .theme-blue .uline-green}
+# [A Societal Mission]{.theme-basker .theme-blue .uline-cherry}
 
 [Empowering underrepresented communities through purposeful education and research.]{.body-large} 
 
@@ -38,18 +40,19 @@ include-in-header:
 
 ::: {.column-screen}
 ::: {.banner-green}
-# [We Teach]{.theme-basker .theme-white .uline-blue}
+# [We Teach Free]{.theme-basker .theme-white .uline-gold}
 
-[All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.body-large .theme-gold}
+[All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.body-large .theme-black}
 
 ::: {.flex-container}
-[{{< fa chart-line >}} Data Science<br>Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-large} 
+[<span style="color:#ffc041">{{< fa chart-line >}}</span>&nbsp;[DATA SCIENCE]{.uline-gold}<br>[Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-medium}]{.body-large} 
 
-[{{< fa laptop size=1xl >}} Computer Skills<br>Word Processing<br>Spreadsheet<br>Presentation<br>Email<br>Digital Calenders<br>Social Media<br>Google Drive]{.body-large}
+[<span style="color:#ffc041">{{< fa laptop >}}</span>&nbsp;[COMPUTER SKILLS]{.uline-gold}<br>[Word Processing<br>Spreadsheet<br>Presentation<br>Email Etiquette<br>Digital Calenders<br>Social Media<br>Google Drive]{.body-medium}]{.body-large}
 
-[{{< fa plane-departure size=1xl >}} English Language<br>Writing<br>Speaking<br>Listening<br>Group Discussion<br>Communication<br>IELTS<br>TOEFL]{.body-large}
 
-[{{< fa clipboard-check >}} Research Methodology<br>Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing]{.body-large}
+[<span style="color:#ffc041">{{< fa plane-departure >}}</span>&nbsp;[ENGLISH LANGUAGE]{.uline-gold}<br>[Writing Skills<br>Speaking Skills<br>Listening Skills<br>Group Discussion<br>Communication<br>IELTS<br>TOEFL]{.body-medium}]{.body-large}
+
+[<span style="color:#ffc041">{{< fa clipboard-check >}}</span>&nbsp;[RESEARCH METHODS]{.uline-gold}<br>[Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing]{.body-medium}]{.body-large}
 :::
 
 ![](images/class-terra.jpg){fig-alt="First batch data science students at SARA."}
@@ -57,7 +60,7 @@ include-in-header:
 :::
 
 ::: {.centering }
-# [Paying Back To The Community]{.theme-basker .uline-cherry .theme-blue}
+# [Paying Back To The Community]{.theme-basker .theme-blue .uline-green}
 
 [At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
 :::

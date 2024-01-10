@@ -26,9 +26,9 @@ website:
       
   page-footer:
     background: "#003366"
-    left: "&copy; SARA Institute<br>Sonipat, Haryana 131001, India."
-    center: "See a bug?<br>[File an issue!]()"
-    right: "[Terms &<br>Conditions](t&c.qmd)"
+    left: "&copy; SARA Institute"
+    center: "See a bug? [File an issue!](https://github.com/sara-edu/sara-edu.github.io)"
+    right: "[Terms & Conditions](t&c.qmd)"
       
 format:
   html:
