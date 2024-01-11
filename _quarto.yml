@@ -5,9 +5,11 @@ project:
 website:
   #title: "SARA"
   favicon: "images/logo.png"
+  site-url: "https://sara-edu.github.io/"
+  description: "SARA Institute offers free data science education to underrepresented students."
   twitter-card: true
   image: "images/logo.png"
-  site-url: "https://sara-edu.github.io/"
+  
   #cookie-consent: true
   
   navbar:

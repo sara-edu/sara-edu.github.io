@@ -1,5 +1,5 @@
 ---
-pagetitle: "SARA"
+pagetitle: "SARA Institute"
 page-layout: article
 backgroundcolor: "#e9e9e9"
 format: html
@@ -71,6 +71,8 @@ include-in-header:
 
 [A Good Organization is Built by Happy, Well-supported People.]{.body-large}
 
+[[Become a SARA Supporter]()]{.body-large}
+
 <br>
 
 ::: {.centering}
@@ -86,6 +88,4 @@ include-in-header:
 <br>
 
 [Thank you for being a part of the SARA! <br> Your support and participation are invaluable as we embark on this journey together.]{.body-large}
-
-[Become a SARA Supporter]()
 :::
