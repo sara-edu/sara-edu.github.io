@@ -15,16 +15,14 @@ website:
   navbar:
     logo: images/logo.png
     right:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
-        text: About Us
-      - href: course.qmd
-        text: Our Courses
-      - href: suppot.qmd
-        text: Support Us  
+        text: About
+      - href: courses.qmd
+        text: Courses
+      - href: support.qmd
+        text: Support
       - href: contact.qmd
-        text: Contact Us  
+        text: Contact
       
   page-footer:
     background: "#003366"
@@ -35,7 +33,7 @@ website:
 format:
   html:
     theme: 
-     - flatly
+     - cosmo
      - test.scss
     css: styles.css
     toc: false

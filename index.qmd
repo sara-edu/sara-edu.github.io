@@ -36,6 +36,13 @@ include-in-header:
 [At SARA, our mission is to empower and enrich our community through education, innovation, and collaboration. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth.]{.body-large} 
 
 [We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.body-large}
+
+<br>
+
+::: {.button}
+[More about SARA](about.qmd)
+:::
+<br>
 :::
 
 ::: {.column-screen}
@@ -45,24 +52,38 @@ include-in-header:
 [All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.body-large .theme-black}
 
 ::: {.flex-container}
-[<span style="color:#ffc041">{{< fa chart-line >}}</span>&nbsp;[DATA SCIENCE]{.uline-gold}<br>[Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-medium}]{.body-large} 
+[<span style="color:#ffc041">{{< fa chart-line >}}</span>&nbsp;[Data Science]{.uline-gold}<br>[Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-medium}]{.body-large} 
 
-[<span style="color:#ffc041">{{< fa laptop >}}</span>&nbsp;[COMPUTER SKILLS]{.uline-gold}<br>[Word Processing<br>Spreadsheet<br>Presentation<br>Email Etiquette<br>Digital Calenders<br>Social Media<br>Google Drive]{.body-medium}]{.body-large}
+[<span style="color:#ffc041">{{< fa laptop >}}</span>&nbsp;[Computer Skills]{.uline-gold}<br>[Word Processing<br>Spreadsheet<br>Presentation<br>Email Etiquette<br>Digital Calenders<br>Social Media<br>Google Drive]{.body-medium}]{.body-large}
 
+[<span style="color:#ffc041">{{< fa plane-departure >}}</span>&nbsp;[English Language]{.uline-gold}<br>[Writing Skills<br>Speaking Skills<br>Listening Skills<br>Group Discussion<br>Communication<br>IELTS<br>TOEFL]{.body-medium}]{.body-large}
 
-[<span style="color:#ffc041">{{< fa plane-departure >}}</span>&nbsp;[ENGLISH LANGUAGE]{.uline-gold}<br>[Writing Skills<br>Speaking Skills<br>Listening Skills<br>Group Discussion<br>Communication<br>IELTS<br>TOEFL]{.body-medium}]{.body-large}
-
-[<span style="color:#ffc041">{{< fa clipboard-check >}}</span>&nbsp;[RESEARCH METHODS]{.uline-gold}<br>[Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing]{.body-medium}]{.body-large}
+[<span style="color:#ffc041">{{< fa clipboard-check >}}</span>&nbsp;[Research Methods]{.uline-gold}<br>[Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing]{.body-medium}]{.body-large}
 :::
+
+<br>
+
+::: {.button}
+[More about courses](courses.qmd)
+:::
+
+<br>
 
 ![](images/class-terra.jpg){fig-alt="First batch data science students at SARA."}
 :::
 :::
 
 ::: {.centering }
-# [Paying Back To The Community]{.theme-basker .theme-blue .uline-green}
+# [Paying Back to the Community]{.theme-basker .theme-blue .uline-green}
 
 [At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
+
+<br>
+
+::: {.button}
+[Become a SARA Supporter](support.qmd)
+:::
+<br>
 :::
 
 ::: {.banner-cherry .column-screen}
@@ -70,8 +91,6 @@ include-in-header:
 # [Thanks]{.theme-basker .uline-gold .theme-white}
 
 [A Good Organization is Built by Happy, Well-supported People.]{.body-large}
-
-[[Become a SARA Supporter]()]{.body-large}
 
 <br>
 
@@ -81,11 +100,14 @@ include-in-header:
 
 ![](images/kiran.png)<br>Dr. Kiran Koli, PhD<br>Founder & Director, SARA.
 
-[{{< fa brands facebook size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=2xl >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands instagram size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands linkedin size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2xl >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg)<br><br>[SARA Home]()<br><br>[About SARA]()<br><br>[Our Courses]()<br><br>[Contact Us]()
+[{{< fa brands facebook size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=2xl >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands instagram size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands linkedin size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2xl >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg)<br><br>[Home]()<br><br>[About]()<br><br>[Courses]()<br><br>[Support]()<br><br>[Contact]()
 
 :::
 :::
 <br>
 
 [Thank you for being a part of the SARA! <br> Your support and participation are invaluable as we embark on this journey together.]{.body-large}
+
+<br>
+
 :::

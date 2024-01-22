@@ -3,6 +3,7 @@
 // color system
 $theme-blue:   #003366;
 $theme-gray:   #4c4c4c;
+$theme-gray-light:   #C0C0C0;
 $theme-white:  white;
 $theme-silver: #e9e9e9;
 $theme-green:  #006758;
@@ -10,7 +11,7 @@ $theme-gold:   #ffc041;
 $theme-black:  #242e32;
 $theme-cherry: #a51f3c;
 
-$link-color: $theme-gold;
+$link-color: $theme-white;
 
 $navbar-bg: $theme-silver;
 
@@ -43,6 +44,7 @@ $navbar-hl: $theme-blue; //The highlight color for links in the navbar.
 .theme-cherry {
   color: $theme-cherry;
 }
+
 
 $font-size-root: 20px;
 $h1-font-size: $font-size-root * 2.60;
@@ -166,8 +168,22 @@ h1, h2, h3 {
   align-items: center;
 }
 
+.button {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: $theme-blue;
+  color: $theme-white;
+  border-radius: 4px;
+  //border: 1px solid;
+  cursor: pointer;
+  box-sizing: border-box;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+}
+
 .fa-facebook:hover {
-    color: #3b5998;
+    color: #316FF6;
 }
 
 .fa-twitter:hover {
@@ -175,13 +191,14 @@ h1, h2, h3 {
 }
 
 .fa-instagram:hover {
-    color: #ffffff;
+    color: #fbad50;
 }
 
 .fa-linkedin:hover {
-    color: #0A66C2;
+    color: #0077b5;
 }
 
 .fa-youtube:hover {
-    color: #FF0000;
+    color: #CD201F;
 }
+
