@@ -13,7 +13,7 @@ include-in-header:
     </style>
 ---
 
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 ::: {.column-screen}
 ::: {.banner-blue}
@@ -37,12 +37,9 @@ include-in-header:
 
 [We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.body-large}
 
-<br>
-
 ::: {.button}
 [More about SARA](about.qmd)
 :::
-<br>
 <br>
 :::
 
@@ -62,8 +59,6 @@ include-in-header:
 [<span style="color:#ffc041">{{< fa clipboard-check >}}</span>&nbsp;[Research Methods]{.uline-gold}<br>[Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing]{.body-medium}]{.body-large}
 :::
 
-<br>
-
 ::: {.button}
 [More about courses](courses.qmd)
 :::
@@ -73,16 +68,15 @@ include-in-header:
 :::
 
 ::: {.centering }
-# [Paying Back to the Community]{.theme-basker .theme-blue .uline-green}
+# [Paying Back to The Community]{.theme-basker .theme-blue .uline-green}
 
 [At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
 
 ![](images/donation.jpeg)
 
 ::: {.button}
-[Become a <br>SARA Supporter](support.qmd)
+[Become a SARA Supporter](support.qmd)
 :::
-<br>
 <br>
 :::
 
