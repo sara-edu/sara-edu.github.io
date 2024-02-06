@@ -16,15 +16,15 @@ website:
     logo: images/logo.png
     right:
       - href: index.qmd
-        text: Home
+        text: HOME
       - href: about.qmd
-        text: About
+        text: ABOUT
       - href: courses.qmd
-        text: Courses
+        text: COURSES
       - href: support.qmd
-        text: Support
+        text: SUPPORT
       - href: contact.qmd
-        text: Contact
+        text: CONTACT
       
   page-footer:
     background: "#003366"

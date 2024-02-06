@@ -17,13 +17,19 @@ include-in-header:
 
 ::: {.column-screen}
 ::: {.banner-blue}
+
 <br>
 
-# SARA INSTITUTE <br> OF DATA SCIENCE<br>🚀
-
-[REGISTRATION LINK]()
-
 ![](images/sara-launch.jpg){fig-alt="April 2023, SARA Institute was launched with family & students."}
+
+<br>
+
+# SARA INSTITUTE <br> OF DATA SCIENCE<br><br>🚀
+
+[APPLY NOW]()
+
+<br>
+<br>
 
 :::
 :::
@@ -38,16 +44,23 @@ include-in-header:
 [We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.body-large}
 
 ::: {.button}
-[More about SARA](about.qmd)
+[Learn more](about.qmd)
 :::
 <br>
 :::
 
 ::: {.column-screen}
 ::: {.banner-green}
+
+![](images/class-terra.jpg){fig-alt="First batch data science students at SARA."}
+
 # [We Teach Free]{.theme-basker .theme-white .uline-gold}
 
+<br>
+
 [All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.body-large .theme-black}
+
+<br>
 
 ::: {.flex-container}
 [<span style="color:#ffc041">{{< fa chart-line >}}</span>&nbsp;[Data Science]{.uline-gold}<br>[Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-medium}]{.body-large} 
@@ -60,10 +73,11 @@ include-in-header:
 :::
 
 ::: {.button}
-[More about courses](courses.qmd)
+[Know more](courses.qmd)
 :::
 
-![](images/class-terra.jpg){fig-alt="First batch data science students at SARA."}
+<br>
+
 :::
 :::
 
@@ -72,15 +86,18 @@ include-in-header:
 
 [At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
 
-![](images/donation.jpeg)
-
 ::: {.button}
 [Become a SARA Supporter](support.qmd)
 :::
+
+![](images/donation.jpeg)
+
 <br>
 :::
 
 ::: {.banner-cherry .column-screen}
+
+<br>
 
 # [Thanks]{.theme-basker .uline-gold .theme-white}
 
