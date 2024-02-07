@@ -11,7 +11,7 @@ $theme-gold:   #ffc041;
 $theme-black:  #242e32;
 $theme-cherry: #a51f3c;
 
-$link-color: $theme-white;
+$link-color: $theme-gold;
 
 $navbar-bg: $theme-silver;
 
@@ -47,7 +47,7 @@ $navbar-hl: $theme-blue; //The highlight color for links in the navbar.
 
 
 $font-size-root: 20px;
-$h1-font-size: $font-size-root * 2.60;
+$h1-font-size: $font-size-root * 1.75;
 
 $background-color: $theme-black;
 
@@ -68,10 +68,6 @@ $background-color: $theme-black;
 
 h1, h2, h3 {
   font-family: "Poppins", sans-serif;
-}
-
-h1 {
-  font-size: 18vw;
 }
 
 // cursive font style for special mentions.
@@ -96,10 +92,14 @@ h1 {
   background-color: $theme-blue;
   color: $theme-white;
   //font-size: 4vw;
-  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
   text-align: center;
-  padding-top: 0;
+  padding-top: 1vh;
+  
+}
+
+.heading_large {
+  font-size: 2.1rem;
 }
 
 .banner-green {

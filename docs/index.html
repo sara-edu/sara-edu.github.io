@@ -101,25 +101,32 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">HOME</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">ABOUT</span></a>
+        <li>
+    <a class="dropdown-item" href="./events.qmd">
+ <span class="dropdown-text">Events</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./courses.html"> 
-<span class="menu-text">COURSES</span></a>
+<span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./support.html"> 
-<span class="menu-text">SUPPORT</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">CONTACT</span></a>
+<span class="menu-text">Support</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -140,16 +147,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="centering page-columns page-full">
 <div class="column-screen">
 <div class="banner-blue">
-<p><br></p>
 <p><img src="images/sara-launch.jpg" class="img-fluid" alt="April 2023, SARA Institute was launched with family &amp; students."></p>
+<section id="sara-institute-of-data-science-apply-now" class="level1">
+<h1>SARA INSTITUTE <br>OF DATA SCIENCE<br><br>🚀<br><span class="body-large"><a href="">Apply now</a></span></h1>
 <p><br></p>
-<section id="sara-institute-of-data-science" class="level1">
-<h1>SARA INSTITUTE <br> OF DATA SCIENCE<br><br>🚀</h1>
-<p><a href="">APPLY NOW</a></p>
-<p><br> <br></p>
 </section>
+</div>
 </div>
 </div>
 <section id="a-societal-mission" class="level1 centering">
@@ -184,8 +190,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <section id="paying-back-to-the-community" class="level1 centering">
-<h1><span class="theme-basker theme-blue uline-green">Paying Back to The Community</span></h1>
-<p><span class="body-large">At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.</span></p>
+<h1><span class="theme-basker theme-blue uline-green">Paying Back to the Community</span></h1>
+<p><span class="body-large">At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community.</span></p>
+<p><span class="body-large">Our commitment goes beyond education and extends to actively contributing to the betterment of society.</span></p>
+<p><span class="body-large">Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.</span></p>
 <div class="button">
 <p><a href="./support.html">Become a SARA Supporter</a></p>
 </div>
@@ -608,7 +616,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© SARA Institute</p>
+<p>SARA Institute © 2023-2024</p>
 </div>   
     <div class="nav-footer-center">
 <p>See a bug? <a href="https://github.com/sara-edu/sara-edu.github.io">File an issue!</a></p>

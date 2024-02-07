@@ -15,22 +15,17 @@ include-in-header:
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+::: {.centering}
 ::: {.column-screen}
 ::: {.banner-blue}
 
-<br>
-
 ![](images/sara-launch.jpg){fig-alt="April 2023, SARA Institute was launched with family & students."}
 
-<br>
-
-# SARA INSTITUTE <br> OF DATA SCIENCE<br><br>🚀
-
-[APPLY NOW]()
+# SARA INSTITUTE <br>OF DATA SCIENCE<br><br>🚀<br>[[Apply now]()]{.body-large}
 
 <br>
-<br>
 
+:::
 :::
 :::
 
@@ -82,9 +77,13 @@ include-in-header:
 :::
 
 ::: {.centering }
-# [Paying Back to The Community]{.theme-basker .theme-blue .uline-green}
+# [Paying Back to the Community]{.theme-basker .theme-blue .uline-green}
 
-[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
+[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community.]{.body-large} 
+
+[Our commitment goes beyond education and extends to actively contributing to the betterment of society.]{.body-large}
+
+[Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
 
 ::: {.button}
 [Become a SARA Supporter](support.qmd)

@@ -5,13 +5,10 @@
   padding-bottom: 0;
   font-family: 'Poppins';
   font-size: 1em;
-  text-decoration: underline;
-  text-underline-offset: auto;
+  text-decoration: none;
 }
 
-#quarto-header {
-  border-bottom: 1px solid #003366;
-}
+
 
 .navbar-brand.navbar-brand-logo {
   display: flex;
@@ -43,13 +40,14 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: black;
+  color: #003366;
   font-weight: 400;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #939bc9;
   font-weight: 400;
+  text-decoration: underline;
 }
 
 .navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active {

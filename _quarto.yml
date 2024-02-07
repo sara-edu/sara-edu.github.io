@@ -15,20 +15,23 @@ website:
   navbar:
     logo: images/logo.png
     right:
-      - href: index.qmd
-        text: HOME
-      - href: about.qmd
-        text: ABOUT
+      - text: About  
+        menu: 
+          - href: about.qmd
+            text: Overview
+          - href: events.qmd
+            text: Events 
+          - href: contact.qmd
+            text: Contact
       - href: courses.qmd
-        text: COURSES
+        text: Courses
       - href: support.qmd
-        text: SUPPORT
-      - href: contact.qmd
-        text: CONTACT
+        text: Support
+      
       
   page-footer:
     background: "#003366"
-    left: "&copy; SARA Institute"
+    left: "SARA Institute &copy; 2023-2024"
     center: "See a bug? [File an issue!](https://github.com/sara-edu/sara-edu.github.io)"
     right: "[Terms & Conditions](t&c.qmd)"
       
