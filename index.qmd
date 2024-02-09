@@ -34,7 +34,7 @@ include-in-header:
 :::
 
 ::: {.centering}
-# [A Societal Mission]{.theme-basker .theme-blue .uline-cherry}
+# [An Ambedkarite Mission]{.theme-basker .theme-blue .uline-cherry}
 
 [Empowering underrepresented communities through purposeful education and research.]{.body-large} 
 
