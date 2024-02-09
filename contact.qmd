@@ -1,4 +1,22 @@
 ---
+pagetitle: "Contact"
+page-layout: full
+backgroundcolor: "#e9e9e9"
 format: html
+css: styles.css
+include-in-header: 
+  text: |
+    <style type="text/css">
+      h2, .h2 {
+        border-bottom: none;
+      }
+    </style>
 ---
 
+# Contact Us
+
+Inquires: [sara.institute.info@gmail.com]{.underline}
+
+Mailing address: Ajay Koli, Dr. Ambedkar Bhavan, Kakroi Road, Sonipat, Haryana - 131001.
+
+Social media: [[Twitter](https://twitter.com/sara_institute)]{.theme-black}

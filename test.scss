@@ -47,7 +47,7 @@ $navbar-hl: $theme-blue; //The highlight color for links in the navbar.
 
 
 $font-size-root: 20px;
-$h1-font-size: $font-size-root * 1.75;
+$h1-font-size: $font-size-root *2.0;
 
 $background-color: $theme-black;
 
@@ -68,6 +68,7 @@ $background-color: $theme-black;
 
 h1, h2, h3 {
   font-family: "Poppins", sans-serif;
+  color: $theme-blue;
 }
 
 // cursive font style for special mentions.
@@ -94,8 +95,9 @@ h1, h2, h3 {
   //font-size: 4vw;
   font-weight: 700;
   text-align: center;
-  padding-top: 1vh;
-  
+  padding-top: 2vh;
+  border-radius: 100%/0 0 30px 30px;
+  box-shadow: 0px 6px 0px $theme-cherry;
 }
 
 .heading_large {
@@ -108,7 +110,9 @@ h1, h2, h3 {
   //font-size: 3vw;
   font-weight: 700;
   text-align: center;
-  padding-top: 1vh;
+  padding-top: 1.5vh;
+  border-radius: 100%/0 0 30px 30px;
+  box-shadow: 0px 10px 0px $theme-cherry;
 }
 
 .banner-cherry {
@@ -133,7 +137,8 @@ h1, h2, h3 {
 }
 
 .body-large {
-  font-size: $font-size-root * 1.5;
+  font-size: $font-size-root * 1.40;
+  text-align: centering;
 }
 
 .body-medium {
@@ -205,4 +210,3 @@ h1, h2, h3 {
 .fa-youtube:hover {
     color: #CD201F;
 }
-

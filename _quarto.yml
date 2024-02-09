@@ -17,12 +17,12 @@ website:
     right:
       - text: About  
         menu: 
-          - href: about.qmd
+          - href: overview.qmd
             text: Overview
           - href: events.qmd
             text: Events 
           - href: contact.qmd
-            text: Contact
+            text: Contact us
       - href: courses.qmd
         text: Courses
       - href: support.qmd
