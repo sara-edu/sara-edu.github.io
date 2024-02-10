@@ -1,9 +1,5 @@
 ---
-pagetitle: "SARA Institute"
-page-layout: article
-backgroundcolor: "#e9e9e9"
-format: html
-css: styles.css
+pagetitle: "SARA"
 include-in-header: 
   text: |
     <style type="text/css">
@@ -15,111 +11,130 @@ include-in-header:
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-::: {.centering}
+::: {.column-screen .banner-blue}
+
+![](images/sara.png)
+
+<br>
+
+[Savitribai Ramabai (SARA) Institute of Data Science]{.hero-heading .poppins-extrabold}
+
+<br>
+:::
+
+<br>
+
+::: {.column-page .centering}
+
+# [Mission]{.poppins-extrabold}
+
+::: {.mission-style}
+Empowering underrepresented communities through purposeful education and research. 
+
+At SARA, our mission is to empower and enrich our community through education, innovation, and collaboration. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth.
+
+We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.
+:::
+
+<br>
+
+::: {.button}
+Learn more
+:::
+
+:::
+
+<br>
+<br>
+
+::: {.column-screen}
+
+![](images/launch-day.jpg){fig-alt="First batch data science students at SARA."}
+:::
+
+
+::: {.column-screen .centering .banner-gray}
+
+<br>
+
+# [Courses]{.poppins-extrabold}
+
+[All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.mission-style}
+
+
+<br>
+
+::: {.flex-container}
+
+Data Science
+
+Research Methods
+
+Computer Skills 
+
+English Language
+:::
+
+<br>
+
+::: {.button}
+Apply now
+:::
+
+<br>
+<br>
+:::
+
+::: {.column-screen}
+
+![](images/launch-class.jpg){width=100% fig-alt="First batch data science students at SARA."}
+:::
+
+
+::: {.column-page .centering}
+
+<br>
+
+# [Community]{.poppins-extrabold}
+
+::: {.mission-style}
+At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. 
+
+Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.
+:::
+
+<br>
+
+::: {.button}
+Become a SARA Supporter
+:::
+
+<br>
+
+[{{< fa brands facebook size=3x >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=3x >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands instagram size=3x >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands linkedin size=3x >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=3x >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg)
+
+<br>
+:::
+
+
 ::: {.column-screen}
 ::: {.banner-blue}
+<br> 
 
-![](images/sara-launch.jpg){fig-alt="April 2023, SARA Institute was launched with family & students."}
+# [Thanks]{.theme-white .poppins-extrabold}
 
-# SARA INSTITUTE <br>OF DATA SCIENCE
-
-# 🚀
-
-[[Apply now]()]{.body-large}
-
-<br>
-
-:::
-:::
-:::
-
-::: {.centering}
-# [An Ambedkarite Mission]{.theme-basker .theme-blue .uline-cherry}
-
-[Empowering underrepresented communities through purposeful education and research.]{.body-large} 
-
-[At SARA, our mission is to empower and enrich our community through education, innovation, and collaboration. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth.]{.body-large} 
-
-[We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.body-large}
-
-::: {.button}
-[Learn more](about.qmd)
-:::
-<br>
-:::
-
-::: {.column-screen}
-::: {.banner-green}
-
-![](images/class-terra.jpg){fig-alt="First batch data science students at SARA."}
-
-# [We Teach Free]{.theme-basker .theme-white .uline-gold}
-
-<br>
-
-[All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.body-large .theme-gold}
-
-<br>
+[A Good Organization is Built by Happy & Well-supported People.<br>Thank you for being a part of the SARA!]{.mission-style}
 
 ::: {.flex-container}
-[<span style="color:#ffc041">{{< fa chart-line >}}</span>&nbsp;[Data Science]{.uline-gold}<br>[Visualization<br>Wrangling<br>Statistics<br>GitHub<br>Quarto<br>HTML Slides<br>Website]{.body-medium}]{.body-large} 
+![](images/ajay.png){width=50%}<br>[Dr. Ajay Koli, PhD<br>Founder & Executive Director, SARA.]{.mission-style .underline}
 
-[<span style="color:#ffc041">{{< fa laptop >}}</span>&nbsp;[Computer Skills]{.uline-gold}<br>[Word Processing<br>Spreadsheet<br>Presentation<br>Email Etiquette<br>Digital Calenders<br>Social Media<br>Google Drive]{.body-medium}]{.body-large}
-
-[<span style="color:#ffc041">{{< fa plane-departure >}}</span>&nbsp;[English Language]{.uline-gold}<br>[Writing Skills<br>Speaking Skills<br>Listening Skills<br>Group Discussion<br>Communication<br>IELTS<br>TOEFL]{.body-medium}]{.body-large}
-
-[<span style="color:#ffc041">{{< fa clipboard-check >}}</span>&nbsp;[Research Methods]{.uline-gold}<br>[Proposal Making<br>Problem Statement<br>Research Design<br>Literature Review<br>Article Publication<br>Reference Management<br>Thesis Writing]{.body-medium}]{.body-large}
-:::
-
-::: {.button}
-[Know more](courses.qmd)
-:::
+![](images/kiran.png){width=70%}<br>[Dr. Kiran Koli, PhD<br>Founder & Director, SARA.]{.mission-style .underline}
 
 :::
-:::
 
-::: {.centering }
-# [Paying Back to the Community]{.theme-basker .theme-blue .uline-cherry}
-
-[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community.]{.body-large} 
-
-[Our commitment goes beyond education and extends to actively contributing to the betterment of society.]{.body-large}
-
-[Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.body-large}
-
-::: {.button}
-[Become a SARA Supporter](support.qmd)
-:::
-
-![](images/donation.jpeg)
-
-<br>
-:::
-
-::: {.banner-cherry .column-screen}
+[Your support and participation are invaluable as we embark on this journey together.]{.mission-style}
 
 <br>
 
-# [Thanks]{.theme-basker .uline-gold .theme-white}
-
-[A Good Organization is Built by Happy, Well-supported People.<br>Thank you for being a part of the SARA!]{.body-large}
-
-<br>
-
-::: {.centering}
-::: {.flex-container}
-![](images/ajay.png)<br>Dr. Ajay Koli, PhD<br>Founder & Executive Director, SARA.
-
-![](images/kiran.png)<br>Dr. Kiran Koli, PhD<br>Founder & Director, SARA.
-
-[{{< fa brands facebook size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=2xl >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands instagram size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands linkedin size=2xl >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2xl >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg)<br><br>[Home]()<br><br>[About]()<br><br>[Courses]()<br><br>[Support]()<br><br>[Contact]()
-
 :::
-:::
-<br>
-
-[Your support and participation are invaluable as we embark on this journey together.]{.body-large}
-
-<br>
-
 :::

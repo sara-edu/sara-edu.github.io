@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  #title: "SARA"
+  title: "SARA INSTITUTE"
   favicon: "images/logo.png"
   site-url: "https://sara-edu.github.io/"
   description: "SARA Institute offers free data science education to underrepresented students."
@@ -13,8 +13,11 @@ website:
   #cookie-consent: true
   
   navbar:
-    logo: images/logo.png
+    #logo: "SARA Institute"
+    pinned: true
     right:
+      - href: index.qmd
+        text: Home
       - text: About  
         menu: 
           - href: overview.qmd
@@ -30,15 +33,15 @@ website:
       
       
   page-footer:
-    background: "#003366"
+    background: " #001f3d"
     left: "SARA Institute &copy; 2023-2024"
-    center: "See a bug? [File an issue!](https://github.com/sara-edu/sara-edu.github.io)"
     right: "[Terms & Conditions](t&c.qmd)"
       
 format:
   html:
+    page-layout: full
     theme: 
-     - cosmo
+     - flatly
      - test.scss
     css: styles.css
     toc: false

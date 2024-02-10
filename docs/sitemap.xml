@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sara-edu.github.io/index.html</loc>
-    <lastmod>2024-02-09T03:42:10.688Z</lastmod>
+    <loc>https://sara-edu.github.io/hero-slider.html</loc>
+    <lastmod>2024-02-09T12:27:28.644Z</lastmod>
   </url>
   <url>
-    <loc>https://sara-edu.github.io/contact.html</loc>
-    <lastmod>2024-02-08T14:28:54.553Z</lastmod>
+    <loc>https://sara-edu.github.io/support.html</loc>
+    <lastmod>2024-02-08T14:18:31.118Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sara-edu.github.io/courses.html</loc>
+    <lastmod>2024-02-10T13:26:26.935Z</lastmod>
   </url>
   <url>
     <loc>https://sara-edu.github.io/overview.html</loc>
     <lastmod>2024-02-08T14:08:23.665Z</lastmod>
   </url>
   <url>
-    <loc>https://sara-edu.github.io/courses.html</loc>
-    <lastmod>2024-02-08T13:38:26.638Z</lastmod>
+    <loc>https://sara-edu.github.io/contact.html</loc>
+    <lastmod>2024-02-08T14:28:54.553Z</lastmod>
   </url>
   <url>
-    <loc>https://sara-edu.github.io/support.html</loc>
-    <lastmod>2024-02-08T14:18:31.118Z</lastmod>
+    <loc>https://sara-edu.github.io/index.html</loc>
+    <lastmod>2024-02-10T14:56:22.045Z</lastmod>
   </url>
 </urlset>

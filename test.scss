@@ -1,173 +1,94 @@
 /*-- scss:defaults --*/
 
-// color system
-$theme-blue:   #003366;
-$theme-gray:   #4c4c4c;
-$theme-gray-light:   #C0C0C0;
-$theme-white:  white;
-$theme-silver: #e9e9e9;
-$theme-green:  #006758;
-$theme-gold:   #ffc041;
-$theme-black:  #242e32;
-$theme-cherry: #a51f3c;
-
-$link-color: $theme-gold;
-
-$navbar-bg: $theme-silver;
-
-$navbar-fg: $theme-blue; //The color of foreground elements (text and navigation) on the navbar. If not specified, a contrasting color is automatically computed.
-
-$navbar-hl: $theme-blue; //The highlight color for links in the navbar.
-
-// below important to zero top padding gap solution is from the Stackoverflow
-.content {
-  margin-top: -20px;
-  margin-bottom: -60px;
-}
-
-.theme-blue {
-  color: $theme-blue;
-}
-
-.theme-black {
-  color: $theme-black;
-}
-
-.theme-white {
-  color: $theme-white;
-}
-
-.theme-gold {
-  color: $theme-gold;
-}
-
-.theme-cherry {
-  color: $theme-cherry;
-}
-
-
-$font-size-root: 20px;
-$h1-font-size: $font-size-root *2.0;
-
-$background-color: $theme-black;
-
-// heading font style "audio"
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libre+Baskerville&display=swap');
-
-.theme-audio {
-  font-family: 'Audiowide', sans-serif;
-  color: $theme-blue;
-}
-
+//// import poppin font style
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.theme-basker {
-  font-family: "Poppins", sans-serif;
-  //color: $theme-blue;
+// color system
+$theme-dark-blue:     #001f3d;
+$theme-skyblue:       #76AADB;
+$theme-gray:          #4c4c4c;
+$theme-gray-light:    #C0C0C0;
+$theme-white:         white;
+$theme-silver:        #e9e9e9;
+$theme-green:         #006758;
+$theme-gold:          #ffc041;
+$theme-black:         #242e32;
+$theme-cherry:        #a51f3c;
+$theme-light-gray:    #f2f2f2;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+
+//// font size settings
+
+$font-size-root: 1.20rem;
+$font-size-base: 1.20rem; // Assumes the browser default, typically `16px`
+$font-size-sm:  $font-size-base * .875 !default;
+$font-size-lg:  $font-size-base * 1.20 !default; // font size of home top logo
+
+$h1-font-size: $font-size-base *2;
+$h2-font-size: $font-size-base *1.5;
+$h3-font-size: $font-size-base *1.25;
+$h4-font-size: $font-size-base *1.15;
+
+
+//// home page background colors
+
+.banner-blue {
+  background-color: $theme-dark-blue;
+  font-family: "Poppins", Sans-Serif;
+  font-size: $font-size-base *2;
+  text-align: center;
+  color: $theme-white;
+  
 }
 
-h1, h2, h3 {
-  font-family: "Poppins", sans-serif;
-  color: $theme-blue;
+//// mission text style and size
+.mission-style {
+  font-size: $font-size-base *1.15;
 }
 
-// cursive font style for special mentions.
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
-
-.theme-cursive {
-  font-family: 'Playpen Sans', cursive;
-  font-size: $font-size-root * 1.75;
-  font-weight: 400;
-  color: $theme-gold;
+.banner-gray {
+  background-color: $theme-light-gray;
+  text-align: center;
+  //position: absolute;
+  margin: -20px 0 0 0;
+  padding: 0% 0 0 0;
 }
 
+$link-color: $theme-dark-blue;
+
+//// all settings for the top navigation bar section
+
+$navbar-bg: $theme-dark-blue;
+$navbar-fg: $theme-white; //color of nav bar text
+$navbar-hl: $theme-silver; //nav bar text hover color
+
+//// to keep gap zero between the top and bottom bgs.
+.content {
+  margin-top: -13px;
+  margin-bottom: -80px;
+}
+
+
+//// text alignment 
 .centering {
   text-align: center;
 }
 
-.lefting {
-  text-align: left;
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
-.banner-blue {
-  background-color: $theme-blue;
-  color: $theme-white;
-  //font-size: 4vw;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 2vh;
-  border-radius: 100%/0 0 30px 30px;
-  box-shadow: 0px 6px 0px $theme-cherry;
-}
-
-.heading_large {
-  font-size: 2.1rem;
-}
-
-.banner-green {
-  background-color: $theme-green;
-  color: $theme-white;
-  //font-size: 3vw;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 1.5vh;
-  border-radius: 100%/0 0 30px 30px;
-  box-shadow: 0px 10px 0px $theme-cherry;
-}
-
-.banner-cherry {
-  background-color: $theme-cherry;
-  color: $theme-white;
-  //font-size: 3vw;
-  //font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  text-align: center;
-}
-
-.banner-footer {
-  background-color: #242e32;
-  color: $theme-white;
-  font-weight: 700;
-  text-align: center;
-}
-
-.title-huge {
-  font-size: 3vw;
-  font-weight: 700;
-}
-
-.body-large {
-  font-size: $font-size-root * 1.40;
-  text-align: centering;
-}
-
-.body-medium {
-  font-size: $font-size-root * 1.25;
-}
-
-.uline-blue {
-  text-decoration: underline;
-  text-decoration-color: $theme-blue;
-  text-decoration-thickness: 0.2em;
-}
-
-.uline-cherry {
-  text-decoration: underline;
-  text-decoration-color: $theme-cherry;
-  text-decoration-thickness: 0.2em;
-}
-
-.uline-gold {
-  text-decoration: underline;
-  text-decoration-color: $theme-gold;
-  text-decoration-thickness: 0.2em;
-}
-
-.uline-green {
-  text-decoration: underline;
-  text-decoration-color: $theme-green;
-  text-decoration-thickness: 0.2em;
-}
 
 .flex-container {
   display: flex;
@@ -178,17 +99,30 @@ h1, h2, h3 {
 }
 
 .button {
-  font-size: 25px;
-  //font-weight: 500;
-  background-color: $theme-blue;
+  background-color: $theme-dark-blue;
+  border: none;
   color: $theme-white;
-  border-radius: 4px;
-  //border: 1px solid;
-  cursor: pointer;
+  //padding: 5px 50px 5px 50px;
+  padding-top: 3px;
+  padding-right: 70px;
+  padding-bottom: 0px;
+  padding-left: 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  border-radius: 2px;
+  //width: 30%;
   box-sizing: border-box;
-  white-space: nowrap;
-  top: 50%;
-  left: 50%;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba($theme-skyblue, 0.8), 0 17px 50px 0 rgba($theme-skyblue, 0.6);
+}
+
+.button-gold {
+  color: $theme-gold;
 }
 
 .fa-facebook:hover {
@@ -200,7 +134,7 @@ h1, h2, h3 {
 }
 
 .fa-instagram:hover {
-    color: #fbad50;
+    color: $theme-cherry;
 }
 
 .fa-linkedin:hover {
