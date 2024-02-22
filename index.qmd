@@ -37,11 +37,9 @@ Learn more
 
 ::: {.column-page}
 
-<br>
-
 # Courses
 
-[All our courses are offered free of charge, <br> ensuring accessibility for everyone.]{.p-mission}
+[All our courses are offered free of charge, ensuring accessibility for everyone.]{.p-mission}
 
 ::: {.layout-grid}
 
@@ -119,7 +117,6 @@ Apply now
 
 
 [At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.p-mission}
-
 
 ::: {.button}
 Become a SARA Supporter
