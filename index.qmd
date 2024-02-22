@@ -9,34 +9,19 @@ include-in-header:
     </style>
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 ::: {.column-screen .banner-blue}
 
-![](images/sara.png)
+![](images/banner-sara.png){fig-alt="A dedication picture of two legendary women, Mata Savitribai Phule & Mata Ramabai Ambedkar. Sara Institute's name is the combination of the first two letters of their names."}
 
-<br>
+# [Savitribai Ramabai (SARA) Institute of Data Science]{.clr-white}
 
-[Savitribai Ramabai (SARA) Institute of Data Science]{.hero-heading .poppins-extrabold}
-
-<br>
 :::
 
-<br>
+::: {.column-page}
 
-::: {.column-page .centering}
+# Mission 
 
-# [Mission]{.poppins-extrabold}
-
-::: {.mission-style}
-Empowering underrepresented communities through purposeful education and research. 
-
-At SARA, our mission is to empower and enrich our community through education, innovation, and collaboration. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth.
-
-We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.
-:::
-
-<br>
+[SARA Institute was founded in April 2023 with a strong foundation of social purpose. Our mission is to empower underrepresented communities through purposeful education and research. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth. We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.p-mission} 
 
 ::: {.button}
 Learn more
@@ -44,97 +29,131 @@ Learn more
 
 :::
 
-<br>
-<br>
-
 ::: {.column-screen}
 
-![](images/launch-day.jpg){fig-alt="First batch data science students at SARA."}
+![](images/launch-sara.jpg){fig-alt="First batch data science students at SARA."}
 :::
 
 
-::: {.column-screen .centering .banner-gray}
+::: {.column-page}
 
 <br>
 
-# [Courses]{.poppins-extrabold}
+# Courses
 
-[All our Courses are Offered Free of Charge, <br>Ensuring Accessibility for Everyone.]{.mission-style}
+[All our courses are offered free of charge, <br> ensuring accessibility for everyone.]{.p-mission}
 
+::: {.layout-grid}
 
-<br>
+::: {.col}
+::: {.card}
 
-::: {.flex-container}
+![](https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
 
-Data Science
+## Computer Skills
 
-Research Methods
+Learning computer skills enhances employability, facilitate efficient communication, information retrieval, and collaboration.
 
-Computer Skills 
+[Learn more]()
 
-English Language
+:::
 :::
 
-<br>
+::: {.col}
+::: {.card}
+
+![](images/founders_sara.jpg)
+
+## Data Science
+
+Uncovering hidden patterns to drive decision making and innovation using data science education.
+
+[Learn more]()
+
+:::
+
+::: {.card}
+
+![](https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+## Research Methods
+
+Scholars can Learn a systematic approach to investigate, analyse, and interpreting information quantitative and qualitative.
+
+[Learn more]()
+:::
+:::
+
+
+::: {.col}
+::: {.card}
+
+![](https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+## English Language
+
+Learning English enhanced global communication, opens doors to diverse cultures, facilitates travel, and provides a competitive edge in the global job market.
+
+[Learn more]()
+
+:::
+:::
+
+:::
 
 ::: {.button}
 Apply now
 :::
 
-<br>
-<br>
 :::
 
 ::: {.column-screen}
 
-![](images/launch-class.jpg){width=100% fig-alt="First batch data science students at SARA."}
+![](images/students_first_sara.jpg){width=100% fig-alt="First batch data science students at SARA."}
 :::
 
 
-::: {.column-page .centering}
+::: {.column-page}
 
-<br>
+# Community
 
-# [Community]{.poppins-extrabold}
 
-::: {.mission-style}
-At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. 
+[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.p-mission}
 
-Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.
-:::
-
-<br>
 
 ::: {.button}
 Become a SARA Supporter
 :::
+:::
 
-<br>
-
-[{{< fa brands facebook size=3x >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands twitter size=3x >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands instagram size=3x >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands linkedin size=3x >}}]() &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=3x >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg)
-
-<br>
+::: {.column-screen .banner-cream}
+[{{< fa brands twitter size=2x >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2x >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands github size=2x >}}](https://github.com/sara-edu) 
 :::
 
 
-::: {.column-screen}
-::: {.banner-blue}
-<br> 
 
-# [Thanks]{.theme-white .poppins-extrabold}
 
-[A Good Organization is Built by Happy & Well-supported People.<br>Thank you for being a part of the SARA!]{.mission-style}
+::: {.column-screen .banner-blue .clr-white}
+
+# Thanks
+
+[A good organization is built by happy & well-supported people. <br> Thank you for being a part of the SARA!]{.p-mission}
+
+<br>
 
 ::: {.flex-container}
-![](images/ajay.png){width=50%}<br>[Dr. Ajay Koli, PhD<br>Founder & Executive Director, SARA.]{.mission-style .underline}
+![](images/ajay.png){width=75%}<br>Dr. Ajay Koli, PhD<br>Founder & Executive Director, SARA.
 
-![](images/kiran.png){width=70%}<br>[Dr. Kiran Koli, PhD<br>Founder & Director, SARA.]{.mission-style .underline}
+![](images/kiran.png){width=75%}<br>Dr. Kiran Koli, PhD<br>Founder & Director, SARA.
+
+[[Home]() <br><br> [About]() <br><br> [Courses]() <br><br> [Support]() <br><br> [Contact]()]{.clr-white}
 
 :::
-
-[Your support and participation are invaluable as we embark on this journey together.]{.mission-style}
 
 <br>
 
-:::
+[Your support and participation are invaluable <br> as we embark on this journey together.]{.p-mission}
+
+
+<br>
 :::

@@ -4,37 +4,38 @@ project:
 
 website:
   title: "SARA INSTITUTE"
-  favicon: "images/logo.png"
+  favicon: "images/logo_sara.png"
   site-url: "https://sara-edu.github.io/"
-  description: "SARA Institute offers free data science education to underrepresented students."
+  description: "We offers free data science education to underrepresented students."
   twitter-card: true
-  image: "images/logo.png"
+  image: "images/logo_sara.png"
   
   #cookie-consent: true
   
   navbar:
-    #logo: "SARA Institute"
+    #logo: "images/logo_sara.png"
     pinned: true
     right:
       - href: index.qmd
         text: Home
-      - text: About  
-        menu: 
-          - href: overview.qmd
-            text: Overview
-          - href: events.qmd
-            text: Events 
-          - href: contact.qmd
-            text: Contact us
+      - href: about.qmd
+        text: About 
       - href: courses.qmd
         text: Courses
+      # - href: events.qmd
+      #   text: Events 
       - href: support.qmd
         text: Support
-      
-      
+      - href: contact.qmd
+        text: Contact
+        
+    # tools:
+    #   - icon: twitter
+    #     href: https://twitter.com
+        
   page-footer:
-    background: " #001f3d"
-    left: "SARA Institute &copy; 2023-2024"
+    background: "#000033"
+    left: "SARA Institute &copy; 2023-present"
     right: "[Terms & Conditions](t&c.qmd)"
       
 format:
