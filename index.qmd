@@ -146,7 +146,7 @@ Learning English enhanced global communication, opens doors to diverse cultures,
 
 ![](images/kiran.png){width=75%}<br>Dr. Kiran Koli, PhD<br>Founder & Director, SARA.
 
-[[Home]() <br><br> [About]() <br><br> [Courses]() <br><br> [Support]() <br><br> [Contact]()]{.clr-white}
+[Home](index.qmd) <br><br> [About](about.qmd) <br><br> [Courses](courses.qmd) <br><br> [Support](support.qmd) <br><br> [Contact](contact.qmd)
 
 :::
 
