@@ -39,14 +39,16 @@ Learn more
 
 # Courses
 
-[All our courses are offered free of charge, ensuring accessibility for everyone.]{.p-mission}
+[All our courses are offered free of charge with open-source study material, ensuring accessibility for everyone.]{.p-mission}
+
+<br>
 
 ::: {.layout-grid}
 
 ::: {.col}
 ::: {.card}
 
-![](https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
+![](https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## Computer Skills
 
@@ -60,7 +62,7 @@ Learning computer skills enhances employability, facilitate efficient communicat
 ::: {.col}
 ::: {.card}
 
-![](images/founders_sara.jpg)
+![](https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## Data Science
 
@@ -72,7 +74,7 @@ Uncovering hidden patterns to drive decision making and innovation using data sc
 
 ::: {.card}
 
-![](https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![](https://images.unsplash.com/photo-1508004680771-708b02aabdc0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## Research Methods
 
@@ -134,7 +136,9 @@ Become a SARA Supporter
 
 # Thanks
 
-[A good organization is built by happy & well-supported people. <br> Thank you for being a part of the SARA!]{.p-mission}
+[A good organization is built by happy & well-supported people.]{.p-mission}
+
+[Thank you for being a part of the SARA!]{.p-mission}
 
 <br>
 
