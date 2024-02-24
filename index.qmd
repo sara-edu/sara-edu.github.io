@@ -125,13 +125,6 @@ Learning English enhanced global communication, opens doors to diverse cultures,
 :::
 
 ::: {.column-screen .banner-cream}
-[{{< fa brands twitter size=2x >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2x >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands github size=2x >}}](https://github.com/sara-edu) 
-:::
-
-
-
-
-::: {.column-screen .banner-blue .clr-white}
 
 # Thanks
 

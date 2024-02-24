@@ -18,9 +18,3 @@ include-in-header:
 {{< fa envelope >}} Inquires: [sara.institute.info@gmail.com]{.underline}
 
 {{< fa university >}} Mailing address: Ajay Koli, Dr. Ambedkar Bhavan, Kakroi Road, Sonipat, Haryana - 131001.
-
-<br>
-
-::: {.banner-cream}
-[{{< fa brands twitter size=2x >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2x >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands github size=2x >}}](https://github.com/sara-edu) 
-:::

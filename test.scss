@@ -66,8 +66,9 @@ h2{
 
 .banner-blue {
   background-color: $clr-navyblue;
-  
 }
+
+
 
 .banner-cream {
   background-color: $clr-cream;
@@ -169,13 +170,16 @@ h2{
   
 }
 
-.button:hover,
-button:focus-visible {
-  background: $clr-blue;
-}
-
 .button a:link {
   color: #fff;
+}
+
+.button a:visited {
+  color: #fff;
+}
+
+.button:hover {
+  background: $clr-blue;
 }
 
 .flex-container {

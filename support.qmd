@@ -19,9 +19,3 @@ include-in-header:
 SARA is funded with the support of donations from the community members.
 
 If you are interested in supporting SARA, consider donating here. To inquire about larger donations or opportunities to support SARA, please reach us at [sara.institute.info@gmail.com]{.underline}
-
-<br>
-
-::: {.banner-cream}
-[{{< fa brands twitter size=2x >}}](https://twitter.com/sara_institute) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands youtube size=2x >}}](https://www.youtube.com/channel/UC4eqrqCz1yPrquOOfrE8mKg) &nbsp;&nbsp;&nbsp;&nbsp; [{{< fa brands github size=2x >}}](https://github.com/sara-edu) 
-:::
