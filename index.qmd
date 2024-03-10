@@ -36,7 +36,7 @@ include-in-header:
 
 ::: {.column-page}
 
-# Courses
+# Free Courses
 
 [All our courses are offered free of charge with open-source study material, ensuring accessibility for everyone.]{.p-mission}
 

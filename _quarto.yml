@@ -13,10 +13,9 @@ website:
   #cookie-consent: true
   
   navbar:
-    #logo: "images/logo_sara.png"
-    search: true
+    search: false
     pinned: true
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
@@ -29,18 +28,19 @@ website:
         text: Support
       - href: contact.qmd
         text: Contact
-    right:
-      - icon: twitter-x
-        href: https://twitter.com/sara_institute
-        aria-label: Twitter
-      - icon: github
-        href: https://github.com/sara-edu
-        aria-label: GitHub    
+        
     
         
   page-footer:
     background: "#000033"
     left: "SARA Institute &copy; 2023-present"
+    center:
+      - icon: twitter-x
+        href: https://twitter.com/sara_institute
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/sara-edu
+        aria-label: GitHub
     right: "[Terms & Conditions](t&c.qmd)"
     border: true
     
