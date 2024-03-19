@@ -78,7 +78,7 @@ h2{
 }
 
 .p-mission {
-  font-size: $font-size-base *1.15;
+  font-size: $font-size-base *1.20;
   font-weight: 100;
   //font-family: "Noto", Sans-Serif;
   line-height: 200%;
@@ -86,7 +86,7 @@ h2{
 
 @media (max-width: 600px) {
   .p-mission {
-    font-size: $font-size-base *0.95;
+    font-size: $font-size-base *1.05;
     font-weight: 400;
     font-family: "Noto", Sans-Serif;
     line-height: 100%;
@@ -95,7 +95,7 @@ h2{
 
 @media (min-width: 1000px) {
   .p-mission {
-    font-size: $font-size-base *1.50;
+    font-size: $font-size-base *1.75;
     font-weight: 75;
     font-family: "Noto", Sans-Serif;
     line-height: 150%;

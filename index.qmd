@@ -21,7 +21,9 @@ include-in-header:
 
 # Mission 
 
-[SARA Institute was founded in April 2023 with a strong foundation of social purpose. Our mission is to empower underrepresented communities through purposeful education and research. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth. We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.p-mission} 
+[SARA Institute, founded in April 2023, is dedicated to empowering underrepresented communities in India through data science education. Our vision is to cultivate a vibrant community where individuals from all backgrounds can thrive, learn, and contribute to society.]{.p-mission}
+
+<!-- [SARA Institute, established in April 2023, stands upon a strong foundation of social purpose. Our mission is to empower underrepresented communities through data science education. We are dedicated to fostering a dynamic learning environment that nurtures creativity, critical thinking, and personal growth. We aim to cultivate a vibrant community where individuals of all backgrounds can thrive, learn, and contribute positively to society.]{.p-mission}  -->
 
 ::: {.button}
 [Learn more](about.qmd)
@@ -38,7 +40,7 @@ include-in-header:
 
 # Free Courses
 
-[All our courses are offered free of charge with open-source study material, ensuring accessibility for everyone.]{.p-mission}
+[All our courses are free and open-source for every student.]{.p-mission}
 
 <br>
 
@@ -117,7 +119,7 @@ Learning English enhanced global communication, opens doors to diverse cultures,
 # Community
 
 
-[At SARA, we believe in the power of giving back and creating a positive impact beyond our immediate community. Our commitment goes beyond education and extends to actively contributing to the betterment of society. Through various initiatives and programs, we aim to pay it forward and make a meaningful difference.]{.p-mission}
+[SARA Institute follows the 'Paying Back to the Community' philosophy. We aim to educate our community about the importance of data science, equipping them with essential skills and offering mentorship to kickstart their careers in the field.]{.p-mission}
 
 ::: {.button}
 [Become a SARA Supporter](support.qmd)

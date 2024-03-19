@@ -22,10 +22,10 @@ website:
         text: About 
       - href: courses.qmd
         text: Courses
-      # - href: events.qmd
-      #   text: Events 
-      - href: support.qmd
-        text: Support
+      - href: blog.qmd
+        text: Blog
+      - href: donate.qmd
+        text: Donate
       - href: contact.qmd
         text: Contact
         
