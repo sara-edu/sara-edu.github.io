@@ -19,15 +19,15 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About 
+        text: About
       - href: courses.qmd
         text: Courses
-      - href: blog.qmd
-        text: Blog
-      - href: donate.qmd
-        text: Donate
+      # - href: blog.qmd
+      #   text: Blog
       - href: contact.qmd
         text: Contact
+      - href: donate.qmd
+        text: Donate  
         
     
         
